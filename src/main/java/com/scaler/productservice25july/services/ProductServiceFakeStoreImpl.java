@@ -59,8 +59,6 @@ public class ProductServiceFakeStoreImpl implements ProductService{
         List<Product> products = new ArrayList<>();
         for (FakeStoreGetProductResponseDto fakeStoreGetProductResponseDto : responseDtoList) {
             products.add(fakeStoreGetProductResponseDto.toProduct());
-
-
         }
         return products;
     }

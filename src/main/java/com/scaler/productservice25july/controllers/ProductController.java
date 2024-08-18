@@ -69,6 +69,7 @@ public class ProductController {
         return response;
     }
 
+    @PutMapping
     public void replaceProduct() {}
 
 

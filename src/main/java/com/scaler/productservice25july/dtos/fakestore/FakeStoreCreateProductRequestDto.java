@@ -18,7 +18,7 @@ public class FakeStoreCreateProductRequestDto {
         fakeStoreCreateProductRequestDto.title = product.getTitle();
         fakeStoreCreateProductRequestDto.price = product.getPrice();
         fakeStoreCreateProductRequestDto.description = product.getDescription();
-        fakeStoreCreateProductRequestDto.category = product.getCategoryName();
+        fakeStoreCreateProductRequestDto.category = product.getCategory().getName();
         fakeStoreCreateProductRequestDto.image = product.getImageUrl();
 
         return fakeStoreCreateProductRequestDto;
